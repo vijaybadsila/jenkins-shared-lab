@@ -1,5 +1,5 @@
-def clone(){
+def clone(string url,string branch){
    echo "this is cloning step"
-            git url:  "https://github.com/vijaybadsila/django-notes-app-1.git",branch:"main"
+            git url:  "${url}",branch:"${branch}"
             echo "clone successfully"
 }
